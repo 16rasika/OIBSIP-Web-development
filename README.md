@@ -5,3 +5,5 @@ I made this simple web application aiming to learn web-developemnt.
 
 ![Capture](https://github.com/user-attachments/assets/eeb421c4-fa8a-4e4f-8c4a-ee694ef61a4b)
 
+# To-Do app
+I designed here to do app to become Data Scientist

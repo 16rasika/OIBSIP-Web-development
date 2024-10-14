@@ -7,3 +7,4 @@ I made this simple web application aiming to learn web-developemnt.
 
 # To-Do app
 I designed here to do app to become Data Scientist
+![to-do-app](https://github.com/user-attachments/assets/e5e425fc-8667-4e8d-aa5f-6150668de4e9)

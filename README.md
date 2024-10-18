@@ -12,3 +12,6 @@ I designed here to do app to become Data Scientist
 # New-Calculator
 Tried to improve some features like color and in all look but this time I capture image with working model where on display one can see the output.
 ![Capture-working-with-output](https://github.com/user-attachments/assets/8a2aae49-4519-4b3f-b456-850dc4c150f4)
+
+# Tribute Page
+

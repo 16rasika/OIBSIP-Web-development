@@ -15,3 +15,7 @@ Tried to improve some features like color and in all look but this time I captur
 
 # Tribute Page
 
+Here I designed tribute page to Indian Business man, Indian industrialist, philanthropist, and former chairman of the Tata Group RATAN TATA.
+![cap-1](https://github.com/user-attachments/assets/8d6d25f1-d012-4393-a3fb-be727d6fa5d1)
+![Cap-2](https://github.com/user-attachments/assets/6aead909-ebc9-4a0a-8d32-e983961a66a9)
+![Cap-3](https://github.com/user-attachments/assets/0ae3fb3f-4358-4168-a7c4-1bfd2e535333)

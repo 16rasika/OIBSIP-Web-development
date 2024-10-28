@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasika-Portfolio</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    
+ <div id = "header">
+   <div class="container">
+     <nav>
+       <img src = "Images/new-rasika-black.jpg" class="logo">
+        <ul>
+            <li> <a href='#'>HOME</a> </li>
+            <li> <a href='#'>ABOUT</a> </li>
+            <li> <a href='#'>PORTFOLIO</a> </li>
+            <li> <a href='#'>CONTACTS</a> </li>
+        </ul>
+     </nav>
+     <div class="header-text">
+        <p> Data Scientist</p>
+        <h1>Hi,I'm <span>Rasika</span><br> Kulkarni from Germany </h1>
+     </div>
+    </div>
+ </div>
+<!---------------about section  --------->
+ <div id = "about">
+      <div class ="container"> 
+         <div class="row">
+            <div class="about-col-1">
+                <img src = "Images/women-in-data-science.jpg">
+            </div>
+            <div class = "about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a highly motivated and goal-oriented person with strong analyst skills. 
+                    I would be happy to contribute my knowledge to your demanding work environment, respond proactively to operational processes and implement them together as a team. 
+                    My productivity, organizational skills and communication skills set me apart.
+                </p>
+                <div class = "tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                    <p class="tab-links"onclick="opentab('education')">Education </p>
+                    <p class="tab-links"onclick="opentab('Hands-On-Experience')">Hands-On-Experience </p>
+                </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul> 
+                    <li><span>DATA SCIENTIST DATA ANALYST</span><br>Deep Learning Machine Learning Pytorch MySql Python</li>
+                    <li><span>DATA ENGINEERING</span><br>Web Scrapping Feature Engineering </li>
+                    <li><span>DATA VISUALIZATION</span><br>Matplotlib SeabornPower BI TAbleau</li>
+                    <li><span>CLOUD COMPUTING </span><br>AWS (Amazon Web Services) </li>
+                </ul>
+             </div>
+             <div class="tab-contents" id= "education">
+                <ul> 
+                    <li><span>Data Science Bootcamp</span><br> 2023 WBS Berlin  </li>
+                    <li><span>Bachelor of Technology</span><br> 2005 Electronics & Telecommunication MIT Aurangabad India</li>
+            
+                </ul>
+             </div>
+             <div class="tab-contents" id="Hands-On-Experience">
+                <ul> 
+                    <li><span>Oasis Infobyte</span><br>10.2024-present Web Development Internship</li>
+                    <li><span>Oasis Infobyte</span><br>06.2024-07.2024 Data Science Internship </li>
+                    <li><span>Skill Genie</span><br> 02.2024-03.2024 Data Science</li>
+                    <li><span>WBS Berlin</span><br> 02.2023-07.2023 Data Science</li>
+            
+                </ul>
+             </div>
+
+
+
+            </div>
+        </div>
+      </div>
+ </div>
+ <! ---------------------- Portfolio --------  -->
+
+ <div id ="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src ="Images/Forage-1.jpg">
+                <div class="layer">
+                    <h3>Job Simulations </h3>
+                    <p> 4 different job simulatiors from accenture,British airways,Pwc and Tata completed to build skills in data visualization,data science and data analysis.</p>
+                    <a href ="#"><i class ="https://github.com/16rasika/Forage-Portfolio"></i></a>
+                </div>
+            </div>
+            <div>
+               <img src="Images/my-sql.png">
+               <div class="layer">
+                <h3>MySQL </h3>
+                <p> 3 different projects completed <br>1.HR-analysis <br>2.Pizza Sales analysis<br>3.Walmart Sales analysis</p>
+                <a href ="#"><i class ="https://github.com/16rasika/Forage-Portfolio"></i></a>
+            </div>  
+            </div>
+            <div>
+                <img src="Images/data-science-artificial-intelligence-1.jpg">
+                <div class="layer">
+                    <h3>ML & DL Projects </h3>
+                    <p> More than 10 projects completed including heart diseases,<br>Image recognition, Breast cancer,<br>Sentiment analysis,covid-19 analysis </p>
+                    <a href ="#"><i class ="https://github.com/16rasika/Forage-Portfolio"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    <a href ="#" class = "btn"> See more </a>
+    </div>
+
+ </div>  
+ <!------------------- contact -----------------  --> 
+<div id = "contact">
+     <div class="container">
+           <div class = "row"> 
+              <div class = "contact-left">
+                <h1 class = "sub-title">Contact Me </h1>
+                <p>16rasika@gmail.com</p>
+                <p>https://www.linkedin.com/in/
+                    16rasika/ </p>
+                <p>https://github.com/16rasika/ </p>    
+                <!---<div class ="social-icons">
+                    <a href="https://www.linkedin.com/in/
+                    16rasika/ "><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/16rasika/"><i class="fa-brands fa-github"></i></a>
+                </div>  -->
+              </div>
+              <div class = "contact-right"></div>  
+           </div>
+     </div>
+</div>
+
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove('active-link');
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove('active-tab');
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+ </script>
+          
+</body>
+</html>
